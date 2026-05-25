@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Navigation_Bar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8M6-ee-eKU">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="y4U-3l-i6B"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Navigation Bars" id="EpJ-iU-6BZ">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="camera" id="CgB-p6-FL9"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="rewind" id="kbx-v5-t9h">
+                                            <color key="tintColor" red="0.98823535442352295" green="0.11372549831867218" blue="0.1098039299249649" alpha="1" colorSpace="deviceRGB"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s6O-Hk-sxB">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="iw4-J0-zEN"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem systemItem="organize" id="D49-cZ-4ga"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="c7h-Pe-e4H"/>
+                                    <barButtonItem systemItem="bookmarks" id="Rzm-LA-5PP"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="u18-Ef-Ub4"/>
+                                    <barButtonItem systemItem="stop" id="cUb-5Y-CHW"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="s6O-Hk-sxB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="6fa-Oa-L1o"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="s6O-Hk-sxB" secondAttribute="bottom" id="K3j-hv-Jec"/>
+                            <constraint firstItem="8M6-ee-eKU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="KUN-DA-nhY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8M6-ee-eKU" secondAttribute="trailing" constant="-20" id="M5Z-Ri-ABX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s6O-Hk-sxB" secondAttribute="trailing" constant="-20" id="PEf-ie-dCW"/>
+                            <constraint firstItem="8M6-ee-eKU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="pJF-0f-nSP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

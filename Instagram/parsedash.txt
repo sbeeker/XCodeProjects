@@ -1,0 +1,2 @@
+pogo:parse-server-example-master sbeeker$ parse-dashboard --appId myAppId --masterKey myMasterKey --serverURL "http://localhost:1337/parse" --appName instagram
+The dashboard is now available at http://0.0.0.0:4040

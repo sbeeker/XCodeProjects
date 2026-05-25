@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC303A6B1D39BDDA00C95691 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC303A681D39BDDA00C95691 /* background-music-aac.caf */; };
+		CC303A6C1D39BDDA00C95691 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC303A681D39BDDA00C95691 /* background-music-aac.caf */; };
+		CC303A6D1D39BDDA00C95691 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC303A681D39BDDA00C95691 /* background-music-aac.caf */; };
+		CC303A6E1D39BDDA00C95691 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC303A691D39BDDA00C95691 /* pew-pew-lei.caf */; };
+		CC303A6F1D39BDDA00C95691 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC303A691D39BDDA00C95691 /* pew-pew-lei.caf */; };
+		CC303A701D39BDDA00C95691 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC303A691D39BDDA00C95691 /* pew-pew-lei.caf */; };
+		CC303A711D39BDDA00C95691 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CC303A6A1D39BDDA00C95691 /* sprites.atlas */; };
+		CC303A721D39BDDA00C95691 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CC303A6A1D39BDDA00C95691 /* sprites.atlas */; };
+		CC303A731D39BDDA00C95691 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CC303A6A1D39BDDA00C95691 /* sprites.atlas */; };
+		CC303A751D39C5FE00C95691 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC303A741D39C5FE00C95691 /* GameOverScene.swift */; };
+		CC303A761D39C5FE00C95691 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC303A741D39C5FE00C95691 /* GameOverScene.swift */; };
+		CC303A771D39C5FE00C95691 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC303A741D39C5FE00C95691 /* GameOverScene.swift */; };
+		CCAABAAD1D39BAC600E23E6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAABAAC1D39BAC600E23E6F /* AppDelegate.swift */; };
+		CCAABAB11D39BAC600E23E6F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAABAB01D39BAC600E23E6F /* GameScene.swift */; };
+		CCAABAB31D39BAC600E23E6F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAABAB21D39BAC600E23E6F /* GameViewController.swift */; };
+		CCAABAB61D39BAC600E23E6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAABAB41D39BAC600E23E6F /* Main.storyboard */; };
+		CCAABAB81D39BAC600E23E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAABAB71D39BAC600E23E6F /* Assets.xcassets */; };
+		CCAABABB1D39BAC600E23E6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAABAB91D39BAC600E23E6F /* LaunchScreen.storyboard */; };
+		CCAABAC61D39BAC600E23E6F /* MonstersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAABAC51D39BAC600E23E6F /* MonstersTests.swift */; };
+		CCAABAD11D39BAC600E23E6F /* MonstersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAABAD01D39BAC600E23E6F /* MonstersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCAABAC21D39BAC600E23E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCAABAA11D39BAC600E23E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCAABAA81D39BAC600E23E6F;
+			remoteInfo = Monsters;
+		};
+		CCAABACD1D39BAC600E23E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCAABAA11D39BAC600E23E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCAABAA81D39BAC600E23E6F;
+			remoteInfo = Monsters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC303A681D39BDDA00C95691 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		CC303A691D39BDDA00C95691 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		CC303A6A1D39BDDA00C95691 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		CC303A741D39C5FE00C95691 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		CCAABAA91D39BAC600E23E6F /* Monsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAABAAC1D39BAC600E23E6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCAABAB01D39BAC600E23E6F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CCAABAB21D39BAC600E23E6F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CCAABAB51D39BAC600E23E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCAABAB71D39BAC600E23E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCAABABA1D39BAC600E23E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCAABABC1D39BAC600E23E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAABAC11D39BAC600E23E6F /* MonstersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonstersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAABAC51D39BAC600E23E6F /* MonstersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersTests.swift; sourceTree = "<group>"; };
+		CCAABAC71D39BAC600E23E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAABACC1D39BAC600E23E6F /* MonstersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonstersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAABAD01D39BAC600E23E6F /* MonstersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersUITests.swift; sourceTree = "<group>"; };
+		CCAABAD21D39BAC600E23E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCAABAA61D39BAC600E23E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAABABE1D39BAC600E23E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAABAC91D39BAC600E23E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC303A671D39BDDA00C95691 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CC303A681D39BDDA00C95691 /* background-music-aac.caf */,
+				CC303A691D39BDDA00C95691 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		CCAABAA01D39BAC600E23E6F = {
+			isa = PBXGroup;
+			children = (
+				CC303A671D39BDDA00C95691 /* Sounds */,
+				CC303A6A1D39BDDA00C95691 /* sprites.atlas */,
+				CCAABAAB1D39BAC600E23E6F /* Monsters */,
+				CCAABAC41D39BAC600E23E6F /* MonstersTests */,
+				CCAABACF1D39BAC600E23E6F /* MonstersUITests */,
+				CCAABAAA1D39BAC600E23E6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCAABAAA1D39BAC600E23E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCAABAA91D39BAC600E23E6F /* Monsters.app */,
+				CCAABAC11D39BAC600E23E6F /* MonstersTests.xctest */,
+				CCAABACC1D39BAC600E23E6F /* MonstersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCAABAAB1D39BAC600E23E6F /* Monsters */ = {
+			isa = PBXGroup;
+			children = (
+				CCAABAAC1D39BAC600E23E6F /* AppDelegate.swift */,
+				CCAABAB01D39BAC600E23E6F /* GameScene.swift */,
+				CC303A741D39C5FE00C95691 /* GameOverScene.swift */,
+				CCAABAB21D39BAC600E23E6F /* GameViewController.swift */,
+				CCAABAB41D39BAC600E23E6F /* Main.storyboard */,
+				CCAABAB71D39BAC600E23E6F /* Assets.xcassets */,
+				CCAABAB91D39BAC600E23E6F /* LaunchScreen.storyboard */,
+				CCAABABC1D39BAC600E23E6F /* Info.plist */,
+			);
+			path = Monsters;
+			sourceTree = "<group>";
+		};
+		CCAABAC41D39BAC600E23E6F /* MonstersTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCAABAC51D39BAC600E23E6F /* MonstersTests.swift */,
+				CCAABAC71D39BAC600E23E6F /* Info.plist */,
+			);
+			path = MonstersTests;
+			sourceTree = "<group>";
+		};
+		CCAABACF1D39BAC600E23E6F /* MonstersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCAABAD01D39BAC600E23E6F /* MonstersUITests.swift */,
+				CCAABAD21D39BAC600E23E6F /* Info.plist */,
+			);
+			path = MonstersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCAABAA81D39BAC600E23E6F /* Monsters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAABAD51D39BAC600E23E6F /* Build configuration list for PBXNativeTarget "Monsters" */;
+			buildPhases = (
+				CCAABAA51D39BAC600E23E6F /* Sources */,
+				CCAABAA61D39BAC600E23E6F /* Frameworks */,
+				CCAABAA71D39BAC600E23E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Monsters;
+			productName = Monsters;
+			productReference = CCAABAA91D39BAC600E23E6F /* Monsters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCAABAC01D39BAC600E23E6F /* MonstersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAABAD81D39BAC600E23E6F /* Build configuration list for PBXNativeTarget "MonstersTests" */;
+			buildPhases = (
+				CCAABABD1D39BAC600E23E6F /* Sources */,
+				CCAABABE1D39BAC600E23E6F /* Frameworks */,
+				CCAABABF1D39BAC600E23E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCAABAC31D39BAC600E23E6F /* PBXTargetDependency */,
+			);
+			name = MonstersTests;
+			productName = MonstersTests;
+			productReference = CCAABAC11D39BAC600E23E6F /* MonstersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCAABACB1D39BAC600E23E6F /* MonstersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAABADB1D39BAC600E23E6F /* Build configuration list for PBXNativeTarget "MonstersUITests" */;
+			buildPhases = (
+				CCAABAC81D39BAC600E23E6F /* Sources */,
+				CCAABAC91D39BAC600E23E6F /* Frameworks */,
+				CCAABACA1D39BAC600E23E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCAABACE1D39BAC600E23E6F /* PBXTargetDependency */,
+			);
+			name = MonstersUITests;
+			productName = MonstersUITests;
+			productReference = CCAABACC1D39BAC600E23E6F /* MonstersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCAABAA11D39BAC600E23E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Scott A. Beeker";
+				TargetAttributes = {
+					CCAABAA81D39BAC600E23E6F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CCAABAC01D39BAC600E23E6F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CCAABAA81D39BAC600E23E6F;
+					};
+					CCAABACB1D39BAC600E23E6F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CCAABAA81D39BAC600E23E6F;
+					};
+				};
+			};
+			buildConfigurationList = CCAABAA41D39BAC600E23E6F /* Build configuration list for PBXProject "Monsters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCAABAA01D39BAC600E23E6F;
+			productRefGroup = CCAABAAA1D39BAC600E23E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCAABAA81D39BAC600E23E6F /* Monsters */,
+				CCAABAC01D39BAC600E23E6F /* MonstersTests */,
+				CCAABACB1D39BAC600E23E6F /* MonstersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCAABAA71D39BAC600E23E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC303A6B1D39BDDA00C95691 /* background-music-aac.caf in Resources */,
+				CCAABABB1D39BAC600E23E6F /* LaunchScreen.storyboard in Resources */,
+				CCAABAB81D39BAC600E23E6F /* Assets.xcassets in Resources */,
+				CC303A6E1D39BDDA00C95691 /* pew-pew-lei.caf in Resources */,
+				CC303A711D39BDDA00C95691 /* sprites.atlas in Resources */,
+				CCAABAB61D39BAC600E23E6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAABABF1D39BAC600E23E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC303A6C1D39BDDA00C95691 /* background-music-aac.caf in Resources */,
+				CC303A721D39BDDA00C95691 /* sprites.atlas in Resources */,
+				CC303A6F1D39BDDA00C95691 /* pew-pew-lei.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAABACA1D39BAC600E23E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC303A6D1D39BDDA00C95691 /* background-music-aac.caf in Resources */,
+				CC303A731D39BDDA00C95691 /* sprites.atlas in Resources */,
+				CC303A701D39BDDA00C95691 /* pew-pew-lei.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCAABAA51D39BAC600E23E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAABAB11D39BAC600E23E6F /* GameScene.swift in Sources */,
+				CCAABAB31D39BAC600E23E6F /* GameViewController.swift in Sources */,
+				CC303A751D39C5FE00C95691 /* GameOverScene.swift in Sources */,
+				CCAABAAD1D39BAC600E23E6F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAABABD1D39BAC600E23E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC303A761D39C5FE00C95691 /* GameOverScene.swift in Sources */,
+				CCAABAC61D39BAC600E23E6F /* MonstersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAABAC81D39BAC600E23E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC303A771D39C5FE00C95691 /* GameOverScene.swift in Sources */,
+				CCAABAD11D39BAC600E23E6F /* MonstersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCAABAC31D39BAC600E23E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCAABAA81D39BAC600E23E6F /* Monsters */;
+			targetProxy = CCAABAC21D39BAC600E23E6F /* PBXContainerItemProxy */;
+		};
+		CCAABACE1D39BAC600E23E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCAABAA81D39BAC600E23E6F /* Monsters */;
+			targetProxy = CCAABACD1D39BAC600E23E6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCAABAB41D39BAC600E23E6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAABAB51D39BAC600E23E6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCAABAB91D39BAC600E23E6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAABABA1D39BAC600E23E6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCAABAD31D39BAC600E23E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCAABAD41D39BAC600E23E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCAABAD61D39BAC600E23E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Monsters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wess-corp.Monsters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCAABAD71D39BAC600E23E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Monsters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wess-corp.Monsters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCAABAD91D39BAC600E23E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MonstersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wess-corp.MonstersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monsters.app/Monsters";
+			};
+			name = Debug;
+		};
+		CCAABADA1D39BAC600E23E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MonstersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wess-corp.MonstersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monsters.app/Monsters";
+			};
+			name = Release;
+		};
+		CCAABADC1D39BAC600E23E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MonstersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wess-corp.MonstersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Monsters;
+			};
+			name = Debug;
+		};
+		CCAABADD1D39BAC600E23E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MonstersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wess-corp.MonstersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Monsters;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCAABAA41D39BAC600E23E6F /* Build configuration list for PBXProject "Monsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAABAD31D39BAC600E23E6F /* Debug */,
+				CCAABAD41D39BAC600E23E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAABAD51D39BAC600E23E6F /* Build configuration list for PBXNativeTarget "Monsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAABAD61D39BAC600E23E6F /* Debug */,
+				CCAABAD71D39BAC600E23E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAABAD81D39BAC600E23E6F /* Build configuration list for PBXNativeTarget "MonstersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAABAD91D39BAC600E23E6F /* Debug */,
+				CCAABADA1D39BAC600E23E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAABADB1D39BAC600E23E6F /* Build configuration list for PBXNativeTarget "MonstersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAABADC1D39BAC600E23E6F /* Debug */,
+				CCAABADD1D39BAC600E23E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCAABAA11D39BAC600E23E6F /* Project object */;
+}

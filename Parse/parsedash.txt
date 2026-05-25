@@ -1,0 +1,4 @@
+parse-dashboard --appId myAppId --masterKey myMasterKey --serverURL "http://localhost:1337/parse" --appName instagram
+
+parse-dashboard --appId myAppIdWESS2016 --masterKey myMasterKeyWESS2016 --serverURL "http://tinderwess2016.herokuapp.com/parse" --appName tinderwess2016 
+

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ParseStarterProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kei-oQ-P0o">
+                                <rect key="frame" x="134" y="267" width="332" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="Djn-u7-Rnc"/>
+                                    <constraint firstAttribute="width" constant="332" id="lJC-bI-U3Y"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="signinwithfacebook.png"/>
+                                <connections>
+                                    <action selector="signIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gbw-xL-It6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tinder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jy3-Tx-WKG">
+                                <rect key="frame" x="234" y="48" width="133" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="R13-0b-q5E"/>
+                                    <constraint firstAttribute="width" constant="133" id="p60-zF-Jz2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kei-oQ-P0o" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5Jm-uW-l5F"/>
+                            <constraint firstItem="kei-oQ-P0o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WiU-t8-wNF"/>
+                            <constraint firstItem="Jy3-Tx-WKG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="dta-Lz-87T"/>
+                            <constraint firstItem="Jy3-Tx-WKG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e8v-NS-Yw7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="371" y="270"/>
+        </scene>
+        <!--Swiping View Controller-->
+        <scene sceneID="61j-Ml-QjE">
+            <objects>
+                <viewController id="GRP-sL-gHB" customClass="SwipingViewController" customModule="ParseStarterProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qd9-Jo-AKs"/>
+                        <viewControllerLayoutGuide type="bottom" id="wcy-u7-1YU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R09-3t-3LT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c7o-ey-6qq">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="a9M-Uj-oe0"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Tinder" id="m8b-X0-c7x">
+                                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="MIT-67-fKR"/>
+                                        <barButtonItem key="rightBarButtonItem" title="View Contacts" id="tDn-hB-laS"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c7n-LS-kEF">
+                                <rect key="frame" x="180" y="82" width="240" height="331"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="331" id="Gms-re-w4j"/>
+                                    <constraint firstAttribute="width" constant="240" id="HWL-6e-3yl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe left to reject, right to accept" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARd-3B-3Te">
+                                <rect key="frame" x="168" y="432" width="264" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="IEA-Xq-eHq"/>
+                                    <constraint firstAttribute="width" constant="264" id="iVM-Wq-Okf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ARd-3B-3Te" firstAttribute="top" secondItem="c7n-LS-kEF" secondAttribute="bottom" constant="19" id="0go-iB-cd6"/>
+                            <constraint firstItem="c7o-ey-6qq" firstAttribute="leading" secondItem="R09-3t-3LT" secondAttribute="leadingMargin" constant="-20" id="266-Et-Did"/>
+                            <constraint firstItem="c7n-LS-kEF" firstAttribute="centerX" secondItem="R09-3t-3LT" secondAttribute="centerX" id="HkD-Hb-g0K"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="c7o-ey-6qq" secondAttribute="trailing" constant="-20" id="LwA-CS-rXU"/>
+                            <constraint firstItem="ARd-3B-3Te" firstAttribute="centerX" secondItem="R09-3t-3LT" secondAttribute="centerX" id="S1R-KH-8fH"/>
+                            <constraint firstItem="c7n-LS-kEF" firstAttribute="top" secondItem="c7o-ey-6qq" secondAttribute="bottom" constant="38" id="VAW-dA-qxC"/>
+                            <constraint firstItem="c7o-ey-6qq" firstAttribute="top" secondItem="R09-3t-3LT" secondAttribute="topMargin" id="wdd-hd-4if"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="infoLabel" destination="ARd-3B-3Te" id="cFl-9R-AfL"/>
+                        <outlet property="userImage" destination="c7n-LS-kEF" id="riM-tv-MGQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mob-mg-cAr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406" y="-1271"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="T3J-dv-rwB">
+            <objects>
+                <viewController id="I1l-Jl-wRz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nuu-AH-SyR"/>
+                        <viewControllerLayoutGuide type="bottom" id="aVF-UH-QR3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="N49-Xj-sKF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ldg-yy-AVD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1458" y="-1644"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="signinwithfacebook.png" width="492" height="108"/>
+    </resources>
+</document>
